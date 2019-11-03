@@ -1,0 +1,28 @@
+.container__card {
+  position: relative;
+}
+
+.status {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.container__paginates {
+  width: "100vh";
+}
+
+.paginates {
+  width: 50vw;
+  list-style: none;
+  margin: auto;
+}
+
+.paginate {
+  display: inline;
+  padding: 1rem;
+}
